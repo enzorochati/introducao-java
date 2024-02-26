@@ -19,11 +19,11 @@ public class Exercicio5 {
 		divicao = (float) a / b;
 		
 		System.out.printf("""
-				Soma: %.1f
-				Diferenca: %.1f
-				Multiplicacao: %.2f
-				Divisao: %.3f
-				""", soma, diferenca, multiplicacao, divicao);
+			Soma: %.1f
+			Diferenca: %.1f
+			Multiplicacao: %.2f
+			Divisao: %.3f
+			""", soma, diferenca, multiplicacao, divicao);
 		
 		System.out.print((a > b) ? "\nA variável A é Maior que a Variável B" : "\nA variável B é Maior que a Variável A");
 		scanner.close();
