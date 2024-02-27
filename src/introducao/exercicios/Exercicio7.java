@@ -5,8 +5,11 @@ import java.util.Scanner;
 public class Exercicio7 {
 
 	public static void main(String[] args) {
+		
 		Scanner scanner = new Scanner(System.in);
-        for(Integer i = 0; i < 3; i++) {
+		
+        for (Integer i = 0; i < 3; i++) {
+        	
         	System.out.print("Valor: ");
         	Integer tempoTotalSegundos = scanner.nextInt();
         	Integer horas = tempoTotalSegundos / 3600;

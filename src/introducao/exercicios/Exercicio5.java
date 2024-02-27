@@ -5,18 +5,18 @@ import java.util.Scanner;
 public class Exercicio5 {
 
 	public static void main(String[] args) {
-		Integer a = 0, b = 0;
-		Float soma = 0f, diferenca = 0f, multiplicacao = 0f, divicao = 0f;
+		
 		Scanner scanner = new Scanner(System.in);
 		
 		System.out.print("A: ");
-		a = scanner.nextInt();
+		Integer a = scanner.nextInt();
 		System.out.print("B: ");
-		b = scanner.nextInt();
-		soma = (float) a + b;
-		diferenca = (float) a - b;
-		multiplicacao = (float) a * b;
-		divicao = (float) a / b;
+		Integer b = scanner.nextInt();
+		
+		Float soma = (float) a + b;
+		Float diferenca = (float) a - b;
+		Float multiplicacao = (float) a * b;
+		Float divicao = (float) a / b;
 		
 		System.out.printf("""
 			Soma: %.1f

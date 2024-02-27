@@ -4,8 +4,11 @@ import java.util.Scanner;
 
 public class Exercicio8 {
     public static void main(String[] args) {
+    	
         Scanner scanner = new Scanner(System.in);
+        
         for(Integer i = 0; i < 3; i++){
+        	
         	System.out.print("Valor: ");
         	Integer valor = scanner.nextInt();
         
@@ -22,6 +25,7 @@ public class Exercicio8 {
         	Integer notas2 = valor / 2;
         	valor %= 2;
         	Integer notas1 = valor;
+        	
         	System.out.printf("""
         		Valor: %d
         		%d nota(s) de R$ 100,00
