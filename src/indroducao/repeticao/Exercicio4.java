@@ -8,7 +8,7 @@ public class Exercicio4 {
 		Scanner scanner = new Scanner(System.in);
 		String continuar = "S";
 		Integer idade = 0, genero = 0, tipoDesenvolvedor = 0, numeroDesenvolvedorasBackend = 0,
-				mulheresCisTrasFrontEnd = 0, homensCisTransMobileMaiorDe40Anos = 0, naoBinariosFullStackMenor40Anos = 0,
+				mulheresCisTrasFrontEnd = 0, homensCisTransMobileMaiorDe40Anos = 0, naoBinariosFullStackMenor30Anos = 0,
 				totalPesquisa = 0, somaIdades = 0;
 
 		while (continuar.equals("S")) {
@@ -29,7 +29,7 @@ public class Exercicio4 {
 			} else if ((genero == 2 || genero == 5) && tipoDesenvolvedor == 3 && idade > 40) {
 				homensCisTransMobileMaiorDe40Anos++;
 			} else if (genero == 3 && tipoDesenvolvedor == 4 && idade < 30) {
-				naoBinariosFullStackMenor40Anos++;
+				naoBinariosFullStackMenor30Anos++;
 			}
 
 			System.out.print("\nDeseja continuar (S/N): ");
@@ -55,7 +55,7 @@ public class Exercicio4 {
 
 				A média de idade das pessoas que responderam à pesquisa: %.2f
 				""", numeroDesenvolvedorasBackend, mulheresCisTrasFrontEnd, homensCisTransMobileMaiorDe40Anos,
-				naoBinariosFullStackMenor40Anos, totalPesquisa, mediaIdadePesquisa);
+				naoBinariosFullStackMenor30Anos, totalPesquisa, mediaIdadePesquisa);
 		scanner.close();
 	}
 
