@@ -15,9 +15,9 @@ public class Exercicio2 {
 			Integer numero = scanner.nextInt();
 
 			if (numero % 2 == 0) {
-				par += 1;
+				par++;
 			} else {
-				impar += 1;
+				impar++;
 			}
 		}
 
