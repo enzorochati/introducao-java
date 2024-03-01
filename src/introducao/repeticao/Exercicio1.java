@@ -1,4 +1,4 @@
-package indroducao.repeticao;
+package introducao.repeticao;
 
 import java.util.Scanner;
 

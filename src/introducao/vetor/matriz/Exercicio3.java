@@ -1,4 +1,4 @@
-package indroducao.vetor.matriz;
+package introducao.vetor.matriz;
 
 import java.util.Scanner;
 
